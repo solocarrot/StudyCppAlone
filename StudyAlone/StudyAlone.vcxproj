@@ -141,6 +141,11 @@
   <ItemGroup>
     <ClCompile Include="hello.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header1.h" />
+    <ClInclude Include="header2.h" />
+    <ClInclude Include="noheader.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
