@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CppStart\hello.cpp" />
+    <ClCompile Include="CppStart\NoNameNamespace.cpp" />
+    <ClCompile Include="CppStart\test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CppStart\ExampleUsing.h" />
