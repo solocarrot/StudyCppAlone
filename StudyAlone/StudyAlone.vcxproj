@@ -139,16 +139,18 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CppGranmar\Granmar.cpp" />
-    <ClCompile Include="CppStart\hello.cpp" />
-    <ClCompile Include="CppStart\NoNameNamespace.cpp" />
-    <ClCompile Include="CppStart\test.cpp" />
+    <ClCompile Include="grammer\Granmar.cpp" />
+    <ClCompile Include="reference\Reference.cpp" />
+    <ClCompile Include="start\hello.cpp" />
+    <ClCompile Include="start\NoNameNamespace.cpp" />
+    <ClCompile Include="start\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CppStart\ExampleUsing.h" />
-    <ClInclude Include="CppStart\header1.h" />
-    <ClInclude Include="CppStart\header2.h" />
-    <ClInclude Include="CppStart\noheader.h" />
+    <ClInclude Include="reference\Reference.h" />
+    <ClInclude Include="start\ExampleUsing.h" />
+    <ClInclude Include="start\header1.h" />
+    <ClInclude Include="start\header2.h" />
+    <ClInclude Include="start\noheader.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Review.txt" />

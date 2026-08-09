@@ -15,30 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CppStart\hello.cpp">
+    <ClCompile Include="start\hello.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CppStart\NoNameNamespace.cpp">
+    <ClCompile Include="start\NoNameNamespace.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CppStart\test.cpp">
+    <ClCompile Include="start\test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CppGranmar\Granmar.cpp">
+    <ClCompile Include="grammer\Granmar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="reference\Reference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CppStart\header1.h">
+    <ClInclude Include="start\header1.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CppStart\header2.h">
+    <ClInclude Include="start\header2.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CppStart\noheader.h">
+    <ClInclude Include="start\noheader.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="CppStart\ExampleUsing.h">
+    <ClInclude Include="start\ExampleUsing.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="reference\Reference.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
