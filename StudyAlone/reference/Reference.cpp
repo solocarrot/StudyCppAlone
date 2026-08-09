@@ -34,19 +34,28 @@
 //int b = 3;
 //another_a = b;
 
-//인자가 된 참조자
+////인자가 된 참조자
+//#include <iostream>
+//
+//int change_val(int& p) {
+//	p = 3;
+//
+//	return 0;
+//}
+//
+//int main() {
+//	int number = 5;
+//
+//	std::cout << number << std::endl;
+//	change_val(number);
+//	std::cout << number << std::endl;
+//}
+
+//상수에 대한참조자
 #include <iostream>
 
-int change_val(int& p) {
-	p = 3;
-
-	return 0;
-}
-
 int main() {
-	int number = 5;
+	int& ref = 4;
 
-	std::cout << number << std::endl;
-	change_val(number);
-	std::cout << number << std::endl;
+	std::cout << ref << std::endl;
 }
