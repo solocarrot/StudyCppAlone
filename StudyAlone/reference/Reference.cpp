@@ -13,14 +13,23 @@
 //	std::cout << number << std::endl;
 //
 //}
+//
+//
+////래퍼런스 도입
+//#include <iostream>
+//
+//int main() {
+//	int a = 3;
+//	int& another_a = a;
+//
+//	another_a = 5;
+//	std::cout << "a = " << a << std::endl;
+//	std::cout << "another_a = " << another_a << std::endl;
+//}
 
-#include <iostream>
+//래퍼런스이해+
+int a = 10;
+int &another_a = a;
 
-int main() {
-	int a = 3;
-	int& another_a = a;
-
-	another_a = 5;
-	std::cout << "a = " << a << std::endl;
-	std::cout << "another_a = " << another_a << std::endl;
-}
+int b = 3;
+another_a = b;
