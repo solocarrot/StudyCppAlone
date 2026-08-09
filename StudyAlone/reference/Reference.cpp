@@ -51,11 +51,26 @@
 //	std::cout << number << std::endl;
 //}
 
-//상수에 대한참조자
+////상수에 대한참조자
+//#include <iostream>
+//
+//int main() {
+//	int& ref = 4;
+//
+//	std::cout << ref << std::endl;
+//}
+
+//배열래퍼런스
 #include <iostream>
 
 int main() {
-	int& ref = 4;
+	int arr[] = { 1,2,3 };
+	int(&ref)[3] = arr;
 
-	std::cout << ref << std::endl;
+	ref[0] = 2;
+	ref[1] = 3;
+	ref[2] = 1;
+
+	std::cout << arr[0] << arr[1] << arr[2] << std::endl;
+	return 0;
 }
