@@ -75,13 +75,25 @@
 //	return 0;
 //}
 
-//래퍼런스를 리턴하는 함수
-int fuction() {
+////래퍼런스를 리턴하는 함수
+//int fuction() {
+//	int a = 2;
+//	return a;
+//}
+//
+//int main() {
+//	int b = fuction();
+//	return 0;
+//}
+
+//지역변수의 래퍼런스 리턴
+int& fuction() {
 	int a = 2;
 	return a;
 }
 
 int main() {
 	int b = fuction();
+	b = 3;
 	return 0;
 }
