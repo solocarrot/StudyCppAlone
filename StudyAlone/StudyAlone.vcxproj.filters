@@ -30,6 +30,9 @@
     <ClCompile Include="reference\Reference.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="heap\Heap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="start\header1.h">

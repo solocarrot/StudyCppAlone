@@ -110,16 +110,16 @@
 //	return 0;
 //}
 
-//값을 리턴하는 함수를 참조자로 받기
-#include <iostream>
-
-int function() {
-	int a = 5;
-	return a;
-}
-
-int main() {
-	const int& c = function();
-	std::cout << c << std::endl;
-	return 0;
-}
+////값을 리턴하는 함수를 참조자로 받기
+//#include <iostream>
+//
+//int function() {
+//	int a = 5;
+//	return a;
+//}
+//
+//int main() {
+//	const int& c = function();
+//	std::cout << c << std::endl;
+//	return 0;
+//}
