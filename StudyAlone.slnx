@@ -3,5 +3,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/objcetOrientaled/" />
   <Project Path="StudyAlone/StudyAlone.vcxproj" Id="9c49bd84-62db-426b-a2fb-1e4ddb281a3a" />
 </Solution>
