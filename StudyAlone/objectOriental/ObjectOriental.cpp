@@ -28,3 +28,24 @@
 //	animal.view_stat();
 //	return 0;
 //}
+
+//Date 클래스만들어보기
+
+#include <iostream>
+
+class Date {
+	int year;
+	int month;
+	int day;
+
+
+public:
+	void SetDate(int year, int month, int day) {
+		this->year = year;
+		this->month = month;
+		this->day = day;
+	}
+	void AddDay(int inc) {
+		
+	}
+};
