@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="grammer\Granmar.cpp" />
     <ClCompile Include="heap\Heap.cpp" />
+    <ClCompile Include="objectOriental\ObjectOriental.cpp" />
     <ClCompile Include="reference\Reference.cpp" />
     <ClCompile Include="start\hello.cpp" />
     <ClCompile Include="start\NoNameNamespace.cpp" />
