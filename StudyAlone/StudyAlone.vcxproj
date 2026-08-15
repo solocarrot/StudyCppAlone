@@ -139,6 +139,8 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constructerAndOverloading\Constructer.cpp" />
+    <ClCompile Include="constructerAndOverloading\Overloading.cpp" />
     <ClCompile Include="grammer\Granmar.cpp" />
     <ClCompile Include="heap\Heap.cpp" />
     <ClCompile Include="objectOriental\ObjectOriental.cpp" />
