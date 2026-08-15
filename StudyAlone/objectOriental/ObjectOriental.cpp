@@ -46,6 +46,38 @@ public:
 		this->day = day;
 	}
 	void AddDay(int inc) {
-		
+		day += inc;
+	}
+	void AddMonth(int inc) {
+		if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+			if (day > 31) {
+				month++;
+				day = 1;
+			}
+		}
+		else if (month == 2) {
+			if (day > 28) {
+				month++;
+				day = 1;
+			}
+		}
+		else {
+			if (day > 30) {
+				month++;
+				day = 1;
+			}
+		}
+
+	}
+	void AddYear(int inc) {
+		if (month > 12) {
+			year++;
+			month = 1;
+		}
+	}
+
+	void showDate() {
+		std::cout << year << "년" << month << "월" << day << "일" << std::endl;
+
 	}
 };
