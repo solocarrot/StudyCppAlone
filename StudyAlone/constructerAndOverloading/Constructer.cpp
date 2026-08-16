@@ -4,9 +4,9 @@
 
 
 class Date {
-	int year_;
-	int month_;
-	int day_;
+	int year;
+	int month;
+	int day;
 
 public:
 	void SetDate(int year, int month, int day);
