@@ -42,6 +42,9 @@
     <ClCompile Include="constructerAndOverloading\Overloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="nowstudy\nowstudy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="start\header1.h">

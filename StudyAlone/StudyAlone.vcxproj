@@ -143,6 +143,7 @@
     <ClCompile Include="constructerAndOverloading\Overloading.cpp" />
     <ClCompile Include="grammer\Granmar.cpp" />
     <ClCompile Include="heap\Heap.cpp" />
+    <ClCompile Include="nowstudy\nowstudy.cpp" />
     <ClCompile Include="objectOriental\ObjectOriental.cpp" />
     <ClCompile Include="reference\Reference.cpp" />
     <ClCompile Include="start\hello.cpp" />
